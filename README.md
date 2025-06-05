@@ -75,3 +75,7 @@ Step goals and reminders
 Saving data persistently using SQLite or Room
 
 Google Fit integration
+
+# OutPut
+
+![Image](https://github.com/user-attachments/assets/139cce2b-2adc-49c9-a48d-1d90c531281a)
