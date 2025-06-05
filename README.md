@@ -16,7 +16,7 @@ Mentor: Neela Santhosh Kumar
 
 The Fitness Tracker App is a light, real-time Android app built in Java via Android Studio. The app uses Android's default step counter sensor to monitor physical activity and offers instant feedback on step count, walking distance, and calories expended. The app is built using a clean, contemporary UI with CardView components to give users a smooth and natural experience.
 
-#Key Features
+# Key Features
 Step Counter Integration: Utilizes the Sensor.TYPE_STEP_COUNTER from Android's sensor API for accurate step tracking.
 
 Distance Estimation: Translates steps to distance with an average step length of 0.78 meters per step.
@@ -44,7 +44,7 @@ Calories Burned (Steps × 0.04 kcal)
 
 There is a Reset button to reset the count during the session. The app cleverly uses an offset such that tracking remains accurate without using persistent storage or app reloads.
 
-#User Interface
+# User Interface
 The UI is constructed with ScrollView and a LinearLayout which has three colored CardView components stacked vertically:
 
 Light Blue for Steps
@@ -58,7 +58,7 @@ Every card has an icon and text field that is updated in real time. A bold Reset
 #Permissions
 The app is requesting ACTIVITY_RECOGNITION permission at runtime for devices with Android 10 and later versions. If rejected, it informs the user that the app is unable to work properly without access to body activity data.
 
-#Use Case
+# Use Case
 This app is ideal for:
 
 Students studying Android sensors and permission handling.
@@ -67,7 +67,7 @@ Developers building health or fitness apps.
 
 Individuals who want to see how to implement real-time hardware sensors to trigger UI updates in Android.
 
-#Future Improvements (Ideas)
+# Future Improvements (Ideas)
 Progress charts daily/weekly using MPAndroidChart
 
 Step goals and reminders
